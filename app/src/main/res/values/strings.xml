@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">所有项目练习</string>
+    <string name="storage">%1$sG可用,共%2$sG</string>
+    <string name="AndroidHero">Android群英传</string>
+</resources>
