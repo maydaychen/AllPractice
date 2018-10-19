@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import longxing.wshoto.com.myapp.R;
 
-public class SignActivity extends AppCompatActivity {
+public class BackgroundActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -44,7 +44,7 @@ public class SumActivity extends AppCompatActivity {
         permissionCheck();
     }
 
-    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8})
+    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8,R.id.button9})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.button:
@@ -60,7 +60,7 @@ public class SumActivity extends AppCompatActivity {
                 startActivity(new Intent(SumActivity.this, TestActivity.class));
                 break;
             case R.id.button5:
-                startActivity(new Intent(SumActivity.this, SignActivity.class));
+                startActivity(new Intent(SumActivity.this, BackgroundActivity.class));
                 break;
             case R.id.button6:
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -81,6 +81,10 @@ public class SumActivity extends AppCompatActivity {
                 break;
             case R.id.button8:
                 startActivity(new Intent(SumActivity.this, AndroidHeroActivity.class));
+                break;
+            case R.id.button9:
+                startActivity(new Intent(SumActivity.this, JinjieActivity.class));
+
                 break;
             default:
                 break;
