@@ -10,6 +10,10 @@
 
     <style name="MyStyle">
         <item name="android:textSize">14sp</item>
+    </style>
 
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 </resources>

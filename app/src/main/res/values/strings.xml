@@ -2,4 +2,8 @@
     <string name="app_name">所有项目练习</string>
     <string name="storage">%1$sG可用,共%2$sG</string>
     <string name="AndroidHero">Android群英传</string>
+    <string name="cancel">取消</string>
+    <string name="camera">相机</string>
+    <string name="pic">图库</string>
+    <string name="permition">此应用需要获取相机及相册权限</string>
 </resources>
